@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+</head>
+
+        <header id="main-header">
+            <div>
+                <h1><a href="index.html">Book Nook</a></h1>
+            </div>
+            </header>
+     
+     <nav id="navbar">
+		<div>
+			<ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bookshelf.html">Bookshelf</a></li>
+				<li><a href="about.html">About</a></li>
+				<!-- <li><a href="#">Contact</a></li> -->
+                <li><a href="profile.html">Profile</a></li>
+             <span>
+				<li><a href="#">Login</a></li>
+				<li><a href="signup.html">Sign up</a></li>
+        <div class="dropdown">
+					<button class="dropbtn" >
+						<i class="fas fa-bars"></i>
+					</button>
+					<div class="dropdown-content">
+					  <a href="https://www.whatshouldireadnext.com/" target="_blank">Recommendations</a>
+					  <a href="https://www.britannica.com/list/12-novels-considered-the-greatest-book-ever-written" target="_blank">Top Rated</a>
+					  <a href="https://www.goodhousekeeping.com/life/entertainment/g34931305/best-books-2021/" target="_blank">Latest Books</a>
+					</div>
+				  </div>
+             </span>
+			</ul>
+		</div>
+	</nav>
+
+<body>
+    <section class="container">
+
+        <h1>Login</h1>
+<form name="Form" method="post" id="my-form">
+<p>Email <br><input type="email" id="email" placeholder="Email ID" class="i"></p>
+
+<p>Password<br><input type="password" id="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number, one uppercase letter, one lowercase letter, and at least 8 or more characters" class="i"></p>
+
+<p style="color:#00468C;">Forgot Password? <i class="fas fa-key"></i></p>
+<br>
+
+<p id="out"></p>
+
+<p><input class="btn" type="submit" value="Login" name="Submit">    
+</p>
+
+</form>
+  </section>
+
+  <footer id="main-footer">
+    <p>Copyright &copy; 2022 Bookworm & Silverfish</p>
+</footer>
+</body>
+</html>
